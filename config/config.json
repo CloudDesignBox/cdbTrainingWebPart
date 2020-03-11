@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cdb-training-videos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cdbTrainingVideos/CdbTrainingVideosWebPart.js",
+          "manifest": "./src/webparts/cdbTrainingVideos/CdbTrainingVideosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CdbTrainingVideosWebPartStrings": "lib/webparts/cdbTrainingVideos/loc/{locale}.js"
+  }
+}
