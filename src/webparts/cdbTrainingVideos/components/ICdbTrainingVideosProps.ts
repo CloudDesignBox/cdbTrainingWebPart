@@ -2,7 +2,6 @@ import { ThemeProvider, ThemeChangedEventArgs, IReadonlyTheme } from '@microsoft
 export interface ICdbTrainingVideosProps {
   videotypes: string;
   videocourse: string;
-  themeVariant: IReadonlyTheme | undefined;
 }
 
 export interface YouTubeProps {

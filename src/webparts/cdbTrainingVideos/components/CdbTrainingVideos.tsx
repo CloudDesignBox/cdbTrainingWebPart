@@ -3,7 +3,6 @@ import styles from './CdbTrainingVideos.module.scss';
 import { ICdbTrainingVideosProps,VideoState } from './ICdbTrainingVideosProps';
 import{YouTubeiFrame} from './YouTubeiFrame';
 import { YouTubeProps } from './ICdbTrainingVideosProps';
-import { ThemeProvider, ThemeChangedEventArgs, IReadonlyTheme } from '@microsoft/sp-component-base';
 import { escape } from '@microsoft/sp-lodash-subset';
 
 export default class CdbTrainingVideos extends React.Component<ICdbTrainingVideosProps, YouTubeProps> {
@@ -105,13 +104,13 @@ export default class CdbTrainingVideos extends React.Component<ICdbTrainingVideo
     }else{
 
     }
-    const { semanticColors }: IReadonlyTheme = this.props.themeVariant;
+    
     //set default video
     if(this.state.videourl==""){
       this.videoSelected(defaultVideo);
     }
     return (
-      <div className={ styles.cdbTrainingVideos } style={{backgroundColor: semanticColors.bodyBackground}}>
+      <div className={ styles.cdbTrainingVideos }>
         <div className={ styles.container }>
           <div className={ styles.row }>
             <div className={ styles.column }>
