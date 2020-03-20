@@ -6,8 +6,10 @@
 3. If you want to use this in Teams, Select the app and in the ribbon, select Sync to Teams
 The web part will then be available to add to any SharePoint page or as a Tab in Teams
 
-<img src="https://github.com/CloudDesignBox/cdbTrainingWebPart/raw/master/Release/tab.png" /><br />
-<img src="https://github.com/CloudDesignBox/cdbTrainingWebPart/raw/master/Release/teamstabs.png" />
+<img src="https://github.com/CloudDesignBox/cdbTrainingWebPart/blob/master/Release/tab.png" /><br />
+<img src="https://github.com/CloudDesignBox/cdbTrainingWebPart/blob/master/Release/teamstabs.png" />
+
+
 
 These instructions are for development purposes only, feel free to build your own version!
 ### Building the code
