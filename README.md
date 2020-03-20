@@ -1,4 +1,5 @@
 ## cdb-training-web-part
+Options for education SharePoint, Teams and User Adoption Podcasts. Business videos are yet to be populated - coming soon.
 
 ## Quick Download
 1. <a href="https://github.com/CloudDesignBox/cdbTrainingWebPart/raw/master/Release/cdb-training-web-part.sppkg">Download Package Here</a>
