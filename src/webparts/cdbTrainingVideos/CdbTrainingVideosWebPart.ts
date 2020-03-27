@@ -65,7 +65,8 @@ export default class CdbTrainingVideosWebPart extends BaseClientSideWebPart<ICdb
                   options: [
                     { key: 'SharePoint', text: 'SharePoint' },
                     { key: 'Teams', text: 'Teams' },
-                    { key: 'User Adoption Podcasts', text: 'User Adoption Podcasts' }
+                    { key: 'User Adoption Podcasts', text: 'User Adoption Podcasts' },
+                    { key: 'Student Guides', text: 'Student Guides' }
                   ]
                 })
               ]

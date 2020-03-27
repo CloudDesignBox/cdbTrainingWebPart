@@ -37,10 +37,11 @@ export default class CdbTrainingVideos extends React.Component<ICdbTrainingVideo
 
     if(this.props.videotypes == "Education" && this.props.videocourse == "Teams"){
       title = "Getting started with Teams for Education";
-      defaultVideo="EgTpuIjic6E";
+      defaultVideo="QUcZOJBoKkc";
       playlist=(
         <div>
           <table className={styles.playlistTable}>
+          {this.generateTitleBlock("QUcZOJBoKkc","Starting an Online Lesson")}
           {this.generateTitleBlock("EgTpuIjic6E","1. Class Dashboard")}
           {this.generateTitleBlock("R5y0DUqSLNs","2. Use and Manage Conversations")}
           {this.generateTitleBlock("f5CZRe2hcR8","3. Change Class Team Icon")}
@@ -96,6 +97,19 @@ export default class CdbTrainingVideos extends React.Component<ICdbTrainingVideo
         {this.generateTitleBlock("zSILlF3fUes","Episode 1: Martin from Thomas Deacon Education Trust")}
 
         
+        </table>
+
+        </div>
+      );
+      
+    }else if(this.props.videotypes == "Education" && this.props.videocourse == "Student Guides"){
+      title="Student Guides";
+      defaultVideo="d3S6a5tYBI0";
+      playlist=(
+
+        <div>
+        <table className={styles.playlistTable}>
+        {this.generateTitleBlock("SemjM2fHV2Q","Student and Parent Guide to Microsoft Teams")}
         </table>
 
         </div>
