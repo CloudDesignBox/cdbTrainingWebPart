@@ -85,6 +85,7 @@ export default class CdbTrainingVideos extends React.Component<ICdbTrainingVideo
 
         <div>
         <table className={styles.playlistTable}>
+        {this.generateTitleBlock("jt5gul21nbo","Episode 11: Supporting Students with SEN and EAL with Office 365")}
         {this.generateTitleBlock("d3S6a5tYBI0","Episode 10: Virtual Lessons using Microsoft Teams")}
         {this.generateTitleBlock("w0nQSgAC41c","Episode 9: What is an MIE Expert and how do I become one?")}
         {this.generateTitleBlock("o5SPr_jldEs","Episode 8: School Leadership with Microsoft Teams")}

@@ -3,7 +3,7 @@
   "solution": {
     "name": "cdb-training-web-part-solution",
     "id": "192e3ff0-be6f-4167-9269-05c1ec5eeb34",
-    "version": "1.0.0.3",
+    "version": "1.0.0.4",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false
